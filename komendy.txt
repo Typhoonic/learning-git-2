@@ -1,0 +1,8 @@
+
+npm install --save-dev browser-sync
+npx browser-sync start --server --files "css/*.css" "*.html"
+
+npm install --save-dev html-validate
+
+#Sprawdzenie poprawności pliku html
+npm exec html-validate yourfile.html
